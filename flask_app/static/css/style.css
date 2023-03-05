@@ -1,0 +1,144 @@
+body {
+    background-color: #f5f6f7;
+    font-family: 'Charis SIL', serif;
+    color: #615151;
+}
+
+/*Barra de navegacion*/
+
+.navbar {
+    padding: 2rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand img{
+    width: 60px;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#cerrar-sesion {
+    background-color: rgb(126, 223, 190);
+    border-color: rgb(126, 223, 190);
+    color: rgb(40, 143, 109);
+    margin-top: 5px;
+}
+
+#navbar-toggler li {
+    margin-left: 30px;
+    color: #615151;
+}
+
+#navbar-toggler a {
+    color: #615151;
+}
+
+/*General*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Rubik Dirt', cursive;
+    color: rgb(122, 238, 199);
+    
+}
+
+h3 {
+    color: rgb(40, 143, 109);
+}
+
+/*Seccion centro*/
+.centro {
+    min-height: 450px;
+    text-align: center;
+}
+
+/*Centro principal*/
+.centro-principal {
+    padding: 4rem;
+}
+
+.centro-imagen {
+    width: 680px;
+    height: 400px;
+    border-radius: 3%;
+    box-shadow: 6px 4px rgb(208, 225, 225);
+    margin: 20px;
+}
+
+.centro-principal h2 {
+    font-size: 2rem;
+    color: #322e2e;
+}
+
+.carousel-item h5, .carousel-item p {
+    font-size: 1.3rem;
+}
+
+#carousel-item1 h5, #carousel-item1 p {
+    color: #e4ecec;
+    font-weight: bolder;
+}
+
+#carousel-item2 h5, #carousel-item2 p {
+    color: #4a4747;
+    font-weight: bolder;
+}
+
+#carousel-item3 h5, #carousel-item3 p {
+    color: #615151;
+    font-weight: bolder;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgb(122, 238, 199);
+}
+
+/*Agregar una reserva-main*/
+main {
+    margin-top: 20px;
+}
+
+table {
+    background-color: rgb(122, 238, 199);
+    color: #615151;
+}
+
+
+/*formularios*/
+form {
+    margin-top: 40px;
+    color: rgb(67, 173, 138);
+}
+
+.form-control, .btn {
+    margin-top: 16px;
+}
+
+#forms {
+    background-color: rgb(122, 238, 199)
+}
+
+.btn-go-login {
+    color: white;
+    text-decoration: none;
+}
+
+/*Responsive*/
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
